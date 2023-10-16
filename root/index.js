@@ -1,1 +1,1 @@
-window.stop();
+// window.stop();
