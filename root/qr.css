@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    padding:0px;
+    margin:0px;
+    background-color:#F0F0F0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+
+#topline{
+    height:7%;
+    background:white;
+    box-shadow:0.5px 1px 8px rgba(0, 0, 0, 0.1);
+    display:flex;
+}
+
+#topline div{
+    height:100%;
+}
+
+#topline-arrow{
+    /* width:15%; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#topline-title{
+    margin-left:15px;
+    display:flex;
+    align-items:center;
+    width:85%;
+    font-weight:500;
+    font-size:calc(1.8vh + 1.8vw);
+    color:#333333;;
+}
+
+#seller{
+    height:9%;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top:8%;
+    box-sizing:border-box;
+    padding-left:15px;
+}
+
+#seller span{
+    color:#9E9E9E;
+    font-size:calc(1.2vh + 1.2vw);
+}
+
+#seller input{
+    font-weight:400;
+    color:#333333;
+    margin-top:4px;
+    border:0px;
+    font-size:calc(1.4vh + 1.4vw);
+}
+
+#seller input:focus{
+    outline:0px;
+}
+
+#money-input{
+    height:8%;
+    background-color:white;
+    margin-top:6%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:calc(2.8vh + 2.8vw);
+}
+
+#money-input input{
+    width:10%;
+    font-weight:500;
+    color:#333333;
+    margin-top:4px;
+    border:0px;
+    font-size:calc(2.8vh + 2.8vw);
+    text-align:center;
+}
+
+#money-input input:focus{
+    outline:0px;
+}
+
+#money-input span:nth-child(1){
+    margin-left:10px;
+}
+
+#continue{
+    width:90%;
+    margin:auto;
+    background:#0288D1;
+    height:7%;
+    margin-top:6%;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:4px;
+    box-shadow:0.5px 1px 8px rgba(0, 0, 0, 0.15);
+    font-weight:400;
+}
+
+a{
+    text-decoration:none;
+}

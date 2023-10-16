@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    padding:0px;
+    margin:0px;
+    background-color:#F0F0F0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+
+#topline{
+    height:7%;
+    background:white;
+    display:flex;
+}
+
+#topline div{
+    height:100%;
+}
+
+#topline-arrow{
+    /* width:15%; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#topline-title{
+    margin-left:15px;
+    display:flex;
+    align-items:center;
+    width:85%;
+    font-weight:500;
+    font-size:calc(1.8vh + 1.8vw);
+    color:#333333;;
+}
+
+#menu{
+    margin-top:-1px;
+    height:7.5%;
+    background:white;
+    display:flex;
+    font-weight:600;
+    position:relative;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.06);
+    z-index:2;
+}
+
+#menu div{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:calc(1.35vh + 1.35vw);
+}
+
+.active{
+    color:#F14635;
+}
+
+#line{
+    position:absolute;
+    bottom:0px;
+    height:0px;
+    border:2px solid #F14635;
+}
+
+#send-random{
+    height:8.5%;
+    background-color:white;
+    margin-top:2.5%;
+    z-index:3;
+    position:relative;
+    display:flex;
+}
+
+#ico-client{
+    width:16.5%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#s-r-title{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-size:calc(1.55vh + 1.55vw);
+    color:#333333;
+    gap:7px;
+    font-weight:400;
+}
+
+#s-r-title span:nth-child(2){
+    font-size:calc(1.15vh + 1.15vw);
+    color:#9E9E9E;
+}
+
+#summa{
+    background-color:white;
+    height:24%;
+}
+
+#summa > div{
+    height:calc(100% / 3);
+}
+
+#sum{
+    display:flex;
+    padding:20px 15px 20px 15px;
+    justify-content:space-between;
+    font-size:calc(1.45vh + 1.45vw);
+    box-sizing:border-box;
+    align-items:center;
+    color:#343434;
+}
+
+#bonus{
+    border-top:1px solid #F2F2F2;
+    border-bottom:1px solid #F2F2F2;
+    display:flex;
+    align-items: center;
+}
+
+#bonus-text{
+    gap:7px;
+    display:flex;
+    flex-direction:column;
+    margin-left:5%;
+    color:#599E03;
+    font-weight:400;
+    font-size:calc(1.4vh + 1.4vw);
+}
+
+#bonus-text span:nth-child(2){
+    color:#9E9E9E;
+    font-size:calc(1.1vh + 1.1vw);
+}
+
+#end-sum{
+    display:flex;
+    padding:20px 15px 20px 15px;
+    justify-content:space-between;
+    font-size:calc(1.45vh + 1.45vw);
+    box-sizing:border-box;
+    align-items:center;
+    color:#343434;
+    font-weight: 600;
+}
+
+#payment{
+    height:9%;
+}
+
+#payment-title{
+    box-sizing: border-box;
+    padding:9% 15px 10px 15px;
+    color:#9E9E9E;
+    font-size:calc(1.3vh + 1.3vw);
+    display:flex;
+    justify-content:space-between;
+}
+
+.payment-block{
+    height:90%;
+    background-color:white;
+    display:flex;
+    color:#333333;
+    font-weight:400;
+    border-bottom:1px solid #F2F2F2;
+}
+
+.card{
+    width:20%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    box-sizing: border-box;
+    padding-left:15px;
+}
+
+#card-info{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    height:100%;
+    align-items:center;
+    box-sizing:border-box;
+    padding-right:15px;
+    font-size:calc(1.35vh + 1.35vw);
+    font-weight:400;
+}
+
+a{
+    text-decoration:none;
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    padding:0px;
+    margin:0px;
+    background-color:#F0F0F0;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+
+#topline{
+    height:7%;
+    background:white;
+    box-shadow:0.5px 1px 8px rgba(0, 0, 0, 0.1);
+    display:flex;
+}
+
+#topline div{
+    height:100%;
+}
+
+#topline-arrow{
+    /* width:15%; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#topline-title{
+    margin-left:15px;
+    display:flex;
+    align-items:center;
+    width:85%;
+    font-weight:500;
+    font-size:calc(1.8vh + 1.8vw);
+    color:#333333;;
+}
+
+#payment{
+    height:9%;
+    margin-top:5%;
+}
+
+#payment-block{
+    height:90%;
+    background-color:white;
+    display:flex;
+    color:#333333;
+    font-weight:400;
+    position:relative;
+    justify-content:center;
+}
+
+#payment-block:nth-child(2){
+    margin-top:3.2%;
+}
+
+#card{
+    width:20%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    box-sizing: border-box;
+    padding-left:15px;
+}
+
+#card-info{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    height:100%;
+    align-items:center;
+    box-sizing:border-box;
+    padding-right:15px;
+    font-size:calc(1.35vh + 1.35vw);
+}
+
+#arrow-down{
+    height:20px;
+    width:20px;
+    background:white;
+    border:1px solid #DBDBDB;
+    position:absolute;
+    bottom:-17px;
+    z-index:999;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#card-info input{
+    font-weight:400;
+    color:#333333;
+    margin-top:4px;
+    border:0px;
+    font-size:calc(1.35vh + 1.35vw);
+}
+
+#card-info input:focus{
+    outline:0px;
+}
+
+#money-input{
+    height:8%;
+    background-color:white;
+    margin-top:24%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:calc(2.8vh + 2.8vw);
+}
+
+#money-input input{
+    width:10%;
+    font-weight:500;
+    color:#333333;
+    margin-top:4px;
+    border:0px;
+    font-size:calc(2.8vh + 2.8vw);
+    text-align:center;
+}
+
+#money-input input:focus{
+    outline:0px;
+}
+
+#money-input span:nth-child(1){
+    margin-left:10px;
+}
+
+#message{
+    width:91%;
+    height:8.5%;
+    margin:3.5% auto;
+}
+
+#message-block{
+    width:85%;
+    height:100%;
+    background:white;
+    border-radius:7px;
+    display:flex;
+    box-sizing:border-box;
+    padding-left:12px;
+    align-items:center;
+    color:#999999;
+    font-size:calc(1.25vh + 1.25vw);
+}
+
+#honor-buttons{
+    width:91%;
+    margin:auto;
+    height:3.2%;
+    /* outline:1px solid red; */
+    display:flex;
+    gap:10px;
+}
+
+#honor-buttons div{
+    height:45%;
+    border-radius:40px;
+    color:#4A4A4A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
+    border:1px solid #D6D6D6;
+}
+
+#commission{
+    text-align:center;
+    margin-top:5%;
+    color:#9E9E9E;
+}
+
+#continue{
+    width:90%;
+    margin:auto;
+    background:#0288D1;
+    height:6.3%;
+    margin-top:5%;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:4px;
+    box-shadow:0.5px 1px 8px rgba(0, 0, 0, 0.15);
+    font-weight:400;
+    font-size:calc(1.3vh + 1.3vw);
+}
+
+a{
+    text-decoration:none;
+}
