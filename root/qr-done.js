@@ -35,7 +35,7 @@ document.getElementById('seller-avatar').textContent = localStorage.getItem('sel
 document.getElementById('check-id').textContent = result;
 
 
-document.getElementById('date-text').textContent = `${currentDay} ${currentMonth}, ${'0'+currentHours}:${currentMinutes}`;
+document.getElementById('date-text').textContent = `${currentDay} ${currentMonth}, ${currentHours}:${currentMinutes}`;
 if(currentDate.getMonth()+1 < 10){
   var month = '0'+Number(currentDate.getMonth()+1);
 }else{
