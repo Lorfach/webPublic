@@ -12,7 +12,7 @@ const monthNames = [
 
 const currentDay = currentDate.getDate(); // Получить число
 const currentMonth = monthNames[currentDate.getMonth()]; // Получить название месяца
-const currentHours = currentDate.getHours() - 1; // Получить часы
+const currentHours = currentDate.getHours(); // Получить часы
 const currentMinutes = currentDate.getMinutes(); // Получить минуты
 const currentYear = currentDate.getFullYear();
 const currentSeconds = currentDate.getSeconds();
